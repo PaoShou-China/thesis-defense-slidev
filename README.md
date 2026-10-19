@@ -6,6 +6,19 @@
 
 模板源码、Skill 和使用说明均可直接在线查看。需要使用时，可克隆仓库运行。最新修改位于 `main` 分支。
 
+## 最短使用路径
+
+1. 打开[在线示例](docs/tomato-report.md)，先看完整汇报长什么样。
+2. 复制或修改 [`template/slides.md`](template/slides.md)，把示例文字替换成自己的研究内容。
+3. 在 `template` 目录运行：
+
+```bash
+npm ci
+npm run dev
+```
+
+只想做一套简洁的通用幻灯片，可运行 `npm run dev:starter`。需要批改时，直接把 PPT、PDF 或页面图片交给 [`SKILL.md`](skills/thesis-defense-slide-review/SKILL.md)。
+
 ## 完整汇报示例：西红柿炒鸡蛋
 
 默认打开模板即展示 **《面向口味一致性的西红柿炒鸡蛋配比协同调节方法研究》**。用一道熟悉的家常菜演示研究问题、方法机制、对照、消融和结论边界，共 22 页。
