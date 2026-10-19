@@ -1,0 +1,1 @@
+<template><div class="slidev-layout academic"><header><b class="number">{{ $frontmatter.section || '1.1' }}</b><div class="title">{{ $frontmatter.heading || '研究内容' }}<span v-if="$frontmatter.emphasis" class="red">：{{ $frontmatter.emphasis }}</span></div><span class="page">{{ $slidev.nav.currentPage }}/{{ $slidev.nav.total }}</span></header><main><slot /></main></div></template>

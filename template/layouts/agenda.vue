@@ -1,0 +1,1 @@
+<template><div class="slidev-layout agenda-page"><aside><h1>汇 报 提 纲</h1><svg width="150" height="110" viewBox="0 0 150 110" fill="none" stroke="white" stroke-width="5"><rect x="45" y="12" width="90" height="63"/><path d="M90 75v22M65 99h50M20 48v45M20 58l40-24"/><circle cx="20" cy="26" r="10" fill="white"/></svg></aside><main><slot /></main></div></template>
