@@ -6,6 +6,8 @@ canvasWidth: 960
 colorSchema: light
 fonts:
   sans: Microsoft YaHei
+  serif: Microsoft YaHei
+  mono: Microsoft YaHei
   local: Microsoft YaHei
   provider: none
 layout: cover
