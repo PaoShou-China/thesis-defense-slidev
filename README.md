@@ -2,15 +2,33 @@
 
 面向工科博士学位论文答辩的演示模板与 AI 审查工具，覆盖研究主线、内容安排、证据呈现、页面布局和答辩准备。
 
-**12 页可编辑示例 · 微软雅黑 · 蓝红学术风格 · 自动页码 · 内容与版式综合审查**
+**16 页完整汇报示例 + 12 页通用版式 · 微软雅黑 · 蓝红学术风格 · 自动页码 · 内容与版式综合审查**
 
 模板源码、Skill 和使用说明均可直接在线查看。需要使用时，可克隆仓库运行。最新修改位于 `main` 分支。
+
+## 完整汇报示例：西红柿炒鸡蛋
+
+默认打开模板即展示 **《面向口味一致性的西红柿炒鸡蛋配比协同调节方法研究》**。用一道熟悉的家常菜演示研究问题、方法机制、对照、消融和结论边界，共 16 页。
+
+[在线浏览整套幻灯片](docs/tomato-report.md) · [PowerPoint 文件](template/examples/tomato/tomato-research.pptx) · [查看汇报源码](template/slides.md) · [查看示例说明](template/examples/tomato/说明.md)
+
+示例中的数值来自可复现教学模型，不是真实烹饪或试吃结果。附带 Python 程序、逐批数据和 SVG 图表。
+
+```bash
+cd template
+npm ci
+npm run dev
+# 复现教学模型
+python examples/tomato/simulate.py
+# 切换至原通用版式
+npm run dev:starter
+```
 
 ## 项目包含什么
 
 | 组成 | 作用 | 入口 |
 | --- | --- | --- |
-| Slidev 模板 | 统一封面、目录、标题、公式、图表和总结页 | [模板内容](template/slides.md) |
+| Slidev 模板 | 默认完整汇报，另附通用版式 | [完整示例](template/slides.md) · [通用版式](template/starter.md) |
 | 批改 Skill | 检查研究逻辑、贡献、证据、内容取舍与格式 | [SKILL.md](skills/thesis-defense-slide-review/SKILL.md) |
 | 内容检查表 | 将学术演示要求转成可执行的审查动作 | [内容要求](docs/学术PPT内容要求.md) |
 | 页面预览 | 直观查看封面与代表性内容页 | [预览图片](docs/images) |
@@ -89,7 +107,7 @@
 
 ## 模板版式与视觉规范
 
-模板采用 16∶9 画布，包含封面、目录、背景图文、研究现状表格、总体路线、章节过渡、核心公式、方法框图、三栏验证场景、结果对比、贡献总结和致谢，共 12 页示例。
+模板采用 16∶9 画布，包含封面、目录、背景图文、研究现状表格、总体路线、章节过渡、核心公式、方法框图、三栏验证场景、结果对比、贡献总结和致谢，共 12 页通用版式，保存在 `starter.md`；默认 `slides.md` 为 16 页番茄炒蛋科研汇报。
 
 | 元素 | 约定 |
 | --- | --- |
@@ -222,7 +240,11 @@ Skill 文件夹为 `skills/thesis-defense-slide-review/`。将整个文件夹复
 
 | 路径 | 用途 |
 | --- | --- |
-| `template/slides.md` | 12 页示例内容 |
+| `template/slides.md` | 16 页番茄炒蛋科研汇报 |
+| `template/starter.md` | 12 页通用版式 |
+| `template/examples/tomato/` | 教学程序、数据及说明 |
+| `template/public/tomato/` | 原创插图与数值图表 |
+| `docs/tomato-report.md` | 完整汇报的在线预览 |
 | `template/style.css` | 配色、字体、字号和布局 |
 | `template/layouts/default.vue` | 普通内容页 |
 | `template/layouts/cover.vue` | 封面与致谢 |

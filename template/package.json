@@ -5,10 +5,13 @@
   "scripts": {
     "dev": "slidev --open",
     "build": "slidev build",
-    "export": "slidev export"
+    "export": "slidev export",
+    "dev:starter": "slidev starter.md --open",
+    "build:starter": "slidev build starter.md"
   },
   "devDependencies": {
     "@slidev/cli": "^52.0.0",
-    "@slidev/theme-default": "^0.25.0"
+    "@slidev/theme-default": "^0.25.0",
+    "playwright-chromium": "^1.51.1"
   }
 }
