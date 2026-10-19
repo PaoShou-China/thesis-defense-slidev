@@ -3,3 +3,8 @@
 
 /* Use Microsoft YaHei for all presentation text. KaTeX retains mathematical glyph fonts. */
 .slidev-layout h1,.slidev-layout h2,.slidev-layout h3,.slidev-layout h4,.slidev-layout p,.slidev-layout li,.slidev-layout table,.slidev-layout th,.slidev-layout td,.slidev-layout code,.slidev-layout pre,.slidev-layout svg text { font-family:var(--academic-font); }
+
+/* Seven-part doctoral defense agenda, sharing the same typography. */
+.agenda-page.agenda-full main { gap:16px; padding:28px 36px; }
+.agenda-full .agenda-item { gap:16px; font-size:23px; line-height:1.35; }
+.agenda-full .agenda-item b { width:47px; height:43px; }

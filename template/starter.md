@@ -25,11 +25,16 @@ transition: none
 
 ---
 layout: agenda
+class: agenda-full
 ---
 
-<div class="agenda-item active"><b>一</b><span>研究背景与思路</span></div>
-<div class="agenda-item "><b>二</b><span>主要研究工作</span></div>
-<div class="agenda-item "><b>三</b><span>工作总结与展望</span></div>
+<div class="agenda-item "><b>一</b><span>研究背景与意义</span></div>
+<div class="agenda-item "><b>二</b><span>国内外研究现状</span></div>
+<div class="agenda-item "><b>三</b><span>研究目标与技术路线</span></div>
+<div class="agenda-item "><b>四</b><span>主要研究工作</span></div>
+<div class="agenda-item "><b>五</b><span>实验验证与结果分析</span></div>
+<div class="agenda-item "><b>六</b><span>创新点与主要贡献</span></div>
+<div class="agenda-item "><b>七</b><span>总结与展望</span></div>
 
 ---
 section: "1.1"
@@ -80,11 +85,16 @@ emphasis: 总体技术路线
 
 ---
 layout: agenda
+class: agenda-full
 ---
 
-<div class="agenda-item "><b>一</b><span>研究背景与思路</span></div>
-<div class="agenda-item active"><b>二</b><span>主要研究工作</span></div>
-<div class="agenda-item "><b>三</b><span>工作总结与展望</span></div>
+<div class="agenda-item "><b>一</b><span>研究背景与意义</span></div>
+<div class="agenda-item "><b>二</b><span>国内外研究现状</span></div>
+<div class="agenda-item "><b>三</b><span>研究目标与技术路线</span></div>
+<div class="agenda-item "><b>四</b><span>主要研究工作</span></div>
+<div class="agenda-item "><b>五</b><span>实验验证与结果分析</span></div>
+<div class="agenda-item "><b>六</b><span>创新点与主要贡献</span></div>
+<div class="agenda-item "><b>七</b><span>总结与展望</span></div>
 
 ---
 section: "2.1"
