@@ -8,3 +8,18 @@
 .agenda-page.agenda-full main { gap:16px; padding:28px 36px; }
 .agenda-full .agenda-item { gap:16px; font-size:23px; line-height:1.35; }
 .agenda-full .agenda-item b { width:47px; height:43px; }
+
+/* Slidev 960px canvas at 16:9 maps to a 13.333in wide PowerPoint slide:
+   1 CSS px = 1 pt in exported physical slide sizing. Keep typography in px
+   and state/test the equivalent pt thresholds in docs. */
+.academic main { font-size:27px; }
+.academic h2 { font-size:32px; }
+.academic h3 { font-size:29px; }
+.academic table { font-size:27px; }
+.small,.caption { font-size:27px; }
+.academic .page { font-size:30px; }
+.banner { font-size:32px; }
+.takeaway { font-size:31px; }
+.academic .takeaway { min-height:34px; }
+.slidev-layout, .slidev-layout *:not(.katex):not(.katex *) { font-weight:700; }
+.slidev-layout .takeaway { color:var(--red); }
