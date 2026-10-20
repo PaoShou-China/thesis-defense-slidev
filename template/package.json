@@ -6,6 +6,8 @@
     "dev": "slidev --open",
     "build": "slidev build",
     "export": "slidev export",
+    "qa": "node scripts/qa-slides.mjs",
+    "qa:render": "node scripts/render-qa.mjs",
     "dev:starter": "slidev starter.md --open",
     "build:starter": "slidev build starter.md"
   },
