@@ -1,0 +1,146 @@
+{
+  "generatedAt": "2026-10-20T02:30:20.803Z",
+  "canvas": "960x540 CSS px, 16:9",
+  "exportPhysicalSize": "720 x 404.88 pt",
+  "unitScale": "1 CSS px = 0.75 exported PDF pt at current slide size",
+  "policy": "20pt minimum means at least 26.67 CSS px; 20px is only 15pt and fails.",
+  "note": "Current content font threshold shown as 22px = 16.5pt. Physical size is reported for follow-up; this report does not certify minimum-size compliance.",
+  "pages": [
+    {
+      "page": 1,
+      "heading": "研究背景",
+      "takeaway": "配方相同，结果可能不同",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 2,
+      "heading": "研究意义",
+      "takeaway": "本教学案例关注可复现研究设计与证据组织。",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 3,
+      "heading": "国内外研究现状",
+      "takeaway": "配料变化需要与目标、方法和证据建立联系。",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 4,
+      "heading": "现有不足",
+      "takeaway": "从方案比较凝练研究问题",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 5,
+      "heading": "研究目标与内容",
+      "takeaway": "总体目标：在已定义的教学模型内，提高响应一致性。",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 6,
+      "heading": "问题定义",
+      "takeaway": "先把“好吃”改成可检验目标",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 7,
+      "heading": "总体技术路线",
+      "takeaway": "核心假设：若响应随原料因子缩放，用量也应随之调节。",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 8,
+      "heading": "研究工作一",
+      "takeaway": "扰动与响应的模型描述",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 9,
+      "heading": "研究工作二",
+      "takeaway": "双通道配比调节方法",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 10,
+      "heading": "实验设置",
+      "takeaway": "这一实验验证模型内的机制，不等同于试吃实验。",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 11,
+      "heading": "对比实验",
+      "takeaway": "在所设模型与噪声下，协同调节更接近指定响应。",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 12,
+      "heading": "消融实验",
+      "takeaway": "逐项移除机制，有助于解释各环节的作用。",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 13,
+      "heading": "扰动分析",
+      "takeaway": "固定用量对偏离名义状态更敏感",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 14,
+      "heading": "创新点与主要贡献",
+      "takeaway": "创新表述需要具体说明新增了什么，以及由什么证据支持。",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 15,
+      "heading": "研究局限",
+      "takeaway": "模型内成立的结论，需要在目标场景中继续验证。",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 16,
+      "heading": "研究总结",
+      "takeaway": "一道家常菜也能讲出清楚的问题、机制、证据和边界。",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    },
+    {
+      "page": 17,
+      "heading": "研究展望",
+      "takeaway": "下一步验证模型假设，再讨论方法能否用于真实场景。",
+      "sourceFontThresholdPx": 22,
+      "equivalentExportPt": 16.5,
+      "issues": []
+    }
+  ]
+}
