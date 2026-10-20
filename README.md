@@ -19,6 +19,8 @@ npm run dev
 
 只想做一套简洁的通用幻灯片，可运行 `npm run dev:starter`。需要批改时，直接把 PPT、PDF 或页面图片交给 [`SKILL.md`](skills/thesis-defense-slide-review/SKILL.md)。
 
+字体说明见 [`template/fonts/README.md`](template/fonts/README.md)。模板已指定微软雅黑并使用加粗字重；微软雅黑属于 Windows 系统字体，公开仓库不直接分发字体文件。
+
 ## 完整汇报示例：西红柿炒鸡蛋
 
 默认打开模板即展示 **《面向口味一致性的西红柿炒鸡蛋配比协同调节方法研究》**。用一道熟悉的家常菜演示研究问题、方法机制、对照、消融和结论边界，共 22 页。
